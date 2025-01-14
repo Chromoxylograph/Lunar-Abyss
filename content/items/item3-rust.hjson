@@ -1,0 +1,5 @@
+flammability: 0
+explosivity: 0
+color: 402b07
+research: item2-iron
+hiddenOnPlanets: [serpulo, erekir]

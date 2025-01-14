@@ -30,7 +30,7 @@ research: {
     objectives: [
         {
             type: SectorComplete
-            preset: sector2-Bozhestvennost
+            preset: groundZero
         }
     ]
 }

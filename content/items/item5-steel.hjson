@@ -1,0 +1,5 @@
+flammability: 0
+explosivity: 0
+color: 777788
+research: drill2-thermiteDrill
+hiddenOnPlanets: [serpulo, erekir]

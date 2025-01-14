@@ -7,7 +7,7 @@ hasItems: true
 hasLiquids: false
 consumes: {
   thermite/2
-}
+]
 requirements: [
   item1-aluminum/120
   item2-iron/100

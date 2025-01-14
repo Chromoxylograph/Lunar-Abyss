@@ -1,0 +1,23 @@
+type: GenericCrafter
+size: 3
+craftTime: 1500
+health: 1700
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 200
+consumes: {
+  power: 3
+    items: [
+    item2-iron/3
+    ]
+}
+requirements: [
+  aluminum/200
+  iron/150
+]
+research: factory1-erosionChamber
+category: crafting
+outputItem: item4-thermite/2
+drawer: {
+  type: DrawDefault

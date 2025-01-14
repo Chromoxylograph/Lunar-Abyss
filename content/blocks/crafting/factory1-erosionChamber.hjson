@@ -1,0 +1,33 @@
+type: GenericCrafter
+size: 3
+craftTime: 1500
+health: 1700
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 200
+consumes: {
+  power: 3
+    items: [
+    item2-iron/3
+    ]
+}
+requirements: [
+  aluminum/200
+  iron/150
+]
+research: drill1-pulseDrill
+category: crafting
+outputItem: item3-rust/2
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawDefault
+}
+{
+type: DrawFlame
+color: ff1111
+}
+]
+}

@@ -13,8 +13,8 @@ consumes: {
     ]
 }
 requirements: [
-  aluminum/200
-  iron/150
+  item1-aluminum/200
+  item2-iron/150
 ]
 research: factory1-erosionChamber
 category: crafting

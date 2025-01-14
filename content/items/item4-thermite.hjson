@@ -1,0 +1,5 @@
+flammability: 0
+explosivity: 300
+color: b77b15
+research: factory1-erosionChamber
+hiddenOnPlanets: [serpulo, erekir]

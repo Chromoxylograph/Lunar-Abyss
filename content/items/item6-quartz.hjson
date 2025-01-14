@@ -1,0 +1,5 @@
+flammability: 0
+explosivity: 0
+color: fbefda
+research: item5-steel
+hiddenOnPlanets: [serpulo, erekir]

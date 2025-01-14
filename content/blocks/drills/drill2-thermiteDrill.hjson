@@ -6,7 +6,7 @@ craftTime: 120
 hasItems: true
 hasLiquids: false
 consumes: {
-    thermite: 2
+    item4-thermite: 2
 }
 requirements: [
     item1-aluminum/120

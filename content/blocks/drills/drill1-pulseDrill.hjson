@@ -1,0 +1,19 @@
+type: Separator
+health: 600
+size: 2
+squareSprite: false
+craftTime: 70
+hasItems: true
+hasLiquids: false
+consumes: {
+}
+requirements: [
+  
+]
+category: production
+results: [
+  item1-aluminum/20
+  item2-iron/15
+]
+research: core1-magnify
+alwaysUnlocked: true

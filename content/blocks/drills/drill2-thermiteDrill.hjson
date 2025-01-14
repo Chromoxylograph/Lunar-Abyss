@@ -8,7 +8,7 @@ hasLiquids: false
 consumes: {
   items: {
     items: [
-      thermite/1
+      item4-thermite/1
     ]
   }
 }

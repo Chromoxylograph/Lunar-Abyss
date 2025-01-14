@@ -13,29 +13,29 @@ consumes: {
   }
 }
 requirements: [
-    item1-aluminum: 120
-    item2-iron: 100
-    item3-rust: 35
+    item1-aluminum/120
+    item2-iron/100
+    item3-rust/35
 ]
 category: production
 
 results: [
-    item1-aluminum: 3
-    item2-iron: 2.5
-    item5-steel: 2
-    item6-quartz: 3
+    item1-aluminum/3
+    item2-iron/2.5
+    item5-steel/2
+    item6-quartz/3
 ]
 research: {
     parent: drill1-pulseDrill
     objectives: [
         {
             type: SectorComplete
-            preset: sector2-lunarSector
+            preset: sector2-Bozhestvennost
         }
     ]
 }
 researchCost: [
-    item1-aluminum: 720
-    item2-iron: 500
-    item3-rust: 200
+    item1-aluminum/720
+    item2-iron/500
+    item3-rust/200
 ]

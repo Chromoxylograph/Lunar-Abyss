@@ -14,7 +14,7 @@ consumes: {
 }
 requirements: [
   item1-aluminum/200
-  item1-iron/150
+  item2-iron/150
 ]
 research: drill1-pulseDrill
 category: crafting

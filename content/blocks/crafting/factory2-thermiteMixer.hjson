@@ -21,3 +21,4 @@ category: crafting
 outputItem: item4-thermite/2
 drawer: {
   type: DrawDefault
+}

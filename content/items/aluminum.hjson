@@ -1,0 +1,6 @@
+flammability: 0
+explosivity: 0
+color: 999999
+alwaysUnlocked: true
+research: core1-magnify
+hiddenOnPlanets: [serpulo, erekir]

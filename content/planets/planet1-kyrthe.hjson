@@ -3,14 +3,14 @@ mesh: {
   planet: kyrthe
   seed: 121
   divisions: 7
-  color1: 636336
+  color1: 656356
   color2: 787798
   colorScale: 3
   radius: 1
   octaves: 3
   persistence: 1
   scale: 1
-  mag: 1.2
+  mag: 1.1
 }
 sectorSize: 1
 allowLaunchSchematics: true
@@ -25,7 +25,7 @@ minZoom: 1
 maxZoom: 4
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.1
+atmosphereRadOut: 0
 accessible: true
 updateLighting: true
 sectorSeed: 0

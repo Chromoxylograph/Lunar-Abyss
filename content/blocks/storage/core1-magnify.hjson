@@ -1,0 +1,22 @@
+type: CoreBlock
+name: Core: Magnify
+description: Core of the base. Armored and stores a decent amount of items.
+requirements: [
+  item1-aluminum/1000
+  item2-iron/1200
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+// unitType: GOES HERE! ADD IT WHEN YOU MAKE CORE UNITTTTTT CHROMAAAAAAA
+health: 2000
+itemCapacity: 5000
+unitCapModifier: 16
+category: effect
+research: {
+  planet: kyrthe
+  root: true
+  name: Kyrthe
+  requiresUnlock: false
+}

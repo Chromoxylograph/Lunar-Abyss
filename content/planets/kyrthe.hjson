@@ -1,0 +1,123 @@
+localizedName: Kyrthe
+description: A yellow and white planet lost for ten millenia. That's why it's called Kyrthe! Weird things have shown up here.
+alwaysUnlocked: true
+mesh: [
+ {
+    type: NoiseMesh
+    planet: kyrthe
+    divisions: 8
+    seed: 23
+    radius: 1.177
+    color1: 577c79
+    color2: 6a96e8
+    octaves: 3.2
+    persistence: 1.1
+  }
+  {
+    type: NoiseMesh
+    planet: kyrthe
+    divisions: 5
+    seed: 98
+    radius: 1.2119
+    color1: babac7
+    color2: c6c387
+    octaves: 5
+    persistence: 0.9
+  }
+  {
+    type: NoiseMesh
+    planet: asthosus
+    seed: 69
+    divisions: 5
+    color1: fefe22
+    color2: ce1e34
+    radius: 1.211
+    octaves: 4.2
+    persistence: 1
+    scale: 1
+    mag: 1
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: kyrthe
+   speed: 1.3
+   radius: 0.11
+   divisions: 7
+   color: da9ffe6e
+   octaves: 4
+   persistence: 0.4
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: kyrthe
+   speed: 1.01
+   radius: 0.12
+   divisions: 7
+   color: da9ffe6e
+   octaves: 3
+   persistence: 0.5
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: asthosus
+   speed: 0.8
+   radius: 0.093
+   divisions: 7
+   color: da9ffe6e
+   octaves: 4
+   persistence: 0.6
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.5
+  scale: 22
+  mag: 0.7
+  thresh: 1.1
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 500
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 1
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 1
+radius: 1.2
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 19927
+bloom: false
+visible: true
+atmosphereColor: 777cad
+iconColor: 777cad
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core1-magnify
+parent: sun
+solarSystem: sun
+hiddenItems: [
+    scrap, copper, lead, graphite, coal, titanium, thorium, silicon, plastanium, metaglass, beryllium, tungsten, carbide
+]

@@ -10,7 +10,7 @@ mesh: {
   octaves: 3
   persistence: 1
   scale: 1
-  mag: 1.75
+  mag: 1.2
 }
 sectorSize: 1
 allowLaunchSchematics: true
@@ -25,7 +25,7 @@ minZoom: 1
 maxZoom: 4
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
+atmosphereRadOut: 0.1
 accessible: true
 updateLighting: true
 sectorSeed: 0

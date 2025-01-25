@@ -1,41 +1,36 @@
-type: Separator
-health: 1450
+type: BurstDrill
+name: Thermite Drill
+description: Uses thermite's ability to generate massive explosions to drill out ores. Generates power as a byproduct, sweet!
 size: 3
-squareSprite: false
-craftTime: 120
-hasItems: true
+hardnessDrillMultiplier: 150
+category: production
+research: drill1-pulseDrill
 hasLiquids: false
+drillTime: 180
+tier: 2
+shake: 3
+}
 consumes: {
-  items: {
-    items: [
-      item4-thermite/1
-    ]
-  }
+  power: 5
+}
+squareSprite: false
+itemCapacity: 50
+researchCostMultiplier: 0.5
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 35
+  strokeFrom: 3
+  strokeTo: 0.8
+  colorFrom: 594e6b
+  colorTo: 2e293a
+  lifetime: 40
+}
+consumes: {
+  power: 2
 }
 requirements: [
-    item1-aluminum/120
-    item2-iron/100
-    item3-rust/35
-]
-category: production
-
-results: [
-    item1-aluminum/3
-    item2-iron/2.5
-    item5-steel/2
-    item6-quartz/3
-]
-research: {
-    parent: drill1-pulseDrill
-    objectives: [
-        {
-            type: SectorComplete
-            preset: groundZero
-        }
-    ]
-}
-researchCost: [
-    item1-aluminum/720
-    item2-iron/500
-    item3-rust/200
+  item1-aluminum/80
+  item2-iron/60
+  item3-rust/30
 ]

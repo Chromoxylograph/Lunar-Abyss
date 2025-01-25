@@ -1,0 +1,43 @@
+type: ConsumeGenerator
+name: Thermite Ignition Chamber
+description: Generates friction, which ignites therite and generates power.
+size: 3
+category: power
+research: {
+  parent: core1-magnify
+  objectives: [
+    {
+      type: OnSector
+      preset: sector2-B
+    }
+  ]
+}
+squareSprite: false
+requirements: [
+  item1-aluminum/30
+  item2-iron/30
+]
+consumes: [
+  item4-thermite/2
+]
+powerProduction: 3
+itemDuration: 120
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.042
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+researchCostMultiplier: 0.5

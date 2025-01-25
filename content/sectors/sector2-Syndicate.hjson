@@ -1,0 +1,14 @@
+captureWave: 20
+planet: kyrthe
+sector: 6
+research: {
+  parent: sector1-Almanac
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sector1-Almanac
+    }
+  ]
+}
+difficulty: 1
+alwaysUnlocked: true

@@ -28,6 +28,7 @@ drillEffect: {
 }
 consumes: {
   power: 2
+  item4-thermite/2
 }
 requirements: [
   item1-aluminum/80

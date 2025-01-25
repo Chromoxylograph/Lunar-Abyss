@@ -1,4 +1,6 @@
-flammability: 0
+name: Thermite
+description: A material that is very hard to ignite, but once it does, it can create incredibly violent reactions. Great for weaponry and power production.
+flammability: 15
 explosivity: 300
 color: b77b15
 research: factory1-erosionChamber

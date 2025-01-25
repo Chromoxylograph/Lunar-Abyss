@@ -13,21 +13,21 @@ squareSprite: false
 itemCapacity: 50
 researchCostMultiplier: 0.5
 drillEffect: {
-  type: WaveEffect
-  sizeFrom: 0.1
-  sizeTo: 35
-  strokeFrom: 3
-  strokeTo: 0.8
-  colorFrom: 594e6b
-  colorTo: 2e293a
-  lifetime: 40
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 35
+    strokeFrom: 3
+    strokeTo: 0.8
+    colorFrom: 594e6b
+    colorTo: 2e293a
+    lifetime: 40
 }
 consumes: {
-  power: 2
-  item4-thermite/2
+    power: 2
+    item4-thermite/2
 }
 requirements: [
-  item1-aluminum/80
-  item2-iron/60
-  item3-rust/30
+    item1-aluminum/80
+    item2-iron/60
+    item3-rust/30
 ]

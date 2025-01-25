@@ -22,10 +22,10 @@ drillEffect: {
     colorTo: 2e293a
     lifetime: 40
 }
-consumes: {
+consumes: [
     power: 2
     item4-thermite/2
-}
+]
 requirements: [
     item1-aluminum/80
     item2-iron/60

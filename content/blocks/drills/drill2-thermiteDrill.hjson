@@ -9,10 +9,6 @@ hasLiquids: false
 drillTime: 180
 tier: 2
 shake: 3
-}
-consumes: {
-  power: 5
-}
 squareSprite: false
 itemCapacity: 50
 researchCostMultiplier: 0.5

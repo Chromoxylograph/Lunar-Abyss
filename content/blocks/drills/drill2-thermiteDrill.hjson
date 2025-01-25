@@ -1,6 +1,6 @@
 type: BurstDrill
 name: Thermite Drill
-description: Ignites thermite to "drill out" ores. Generates power as a byproduct, sweet!
+description: Ignites thermite to "drill out" ores. Requires power.
 size: 3
 hardnessDrillMultiplier: 150
 category: production

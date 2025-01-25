@@ -1,17 +1,27 @@
-type: Separator
-health: 600
+type: BurstDrill
+name: Pulse Drill
+description: Gathers up pressure and mines bursts of material at once. Doesn't use power, how convienent.
 size: 2
-squareSprite: false
-craftTime: 70
-hasItems: true
+category: production
 hasLiquids: false
-consumes: {
+hardnessDrillMultiplier: 50
+drillTime: 250
+hasPower: false
+tier: 1
+shake: 0.5
+itemCapacity: 20
+researchCostMultiplier: 0.5
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.2
+  sizeTo: 5
+  strokeFrom: 1
+  strokeTo: 0.2
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
 }
 requirements: [
-  
-]
-category: production
-results: [
   item1-aluminum/20
   item2-iron/15
 ]

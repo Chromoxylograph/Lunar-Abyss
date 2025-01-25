@@ -8,7 +8,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: sector2-B
+      preset: sector2-Syndicate
     }
   ]
 }

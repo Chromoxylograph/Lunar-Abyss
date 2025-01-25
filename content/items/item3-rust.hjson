@@ -1,3 +1,5 @@
+name: Rust
+description: "It's oxide, but not oxide. FeO3 is not the same as BeO."
 flammability: 0
 explosivity: 0
 color: 402b07

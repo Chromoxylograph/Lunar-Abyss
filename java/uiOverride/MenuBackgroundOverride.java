@@ -7,7 +7,7 @@ public class MenuBackgroundOverride extends Mod {
 
     @Override
     public void init() {
-        // Replace the default menu background with our custom star background
+        // Replace the default menu background
         MenuBackground.set(new StarBackground());
     }
 }

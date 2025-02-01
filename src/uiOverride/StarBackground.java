@@ -1,4 +1,4 @@
-package java.uiOverride;
+package src.uiOverride;
 
 import arc.graphics.Color;
 import arc.graphics.g2d.Draw;

@@ -10,6 +10,7 @@ consumes: {
   power: 3
     items: [
     item2-iron/3
+    item3-rust/2
     ]
 }
 requirements: [

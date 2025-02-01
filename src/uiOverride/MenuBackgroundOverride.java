@@ -1,4 +1,4 @@
-package java.uiOverride;
+package src.uiOverride;
 
 import mindustry.mod.Mod;
 import mindustry.ui.MenuBackground;

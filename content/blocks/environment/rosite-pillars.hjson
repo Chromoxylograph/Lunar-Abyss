@@ -1,5 +1,5 @@
 type: TallBlock
 name: Rosite Pillars
-clipSize: 64
+clipSize: 96
 shadowAlpha: 0.5
-shadowOffset: -1.25
+shadowOffset: -1.5
